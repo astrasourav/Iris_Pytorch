@@ -73,17 +73,11 @@ The model is trained and evaluated on the dataset, achieving high accuracy and g
 - Saved model (`.pt` file) can be reloaded and used for future predictions without retraining.
 
 ---
+## 📬 Contact
+If you have any questions or suggestions, feel free to reach out! 😊  
 
-## ✅ How to Use the Saved Model
+📧 **Email:** souravkumarr77@gmail.com  
+🔗 **LinkedIn:** [Sourav Kumar](https://www.linkedin.com/in/sourav-kumar-30141b174/)  
+🔗 **X:** [Sourav Kumar](https://x.com/souravkumarr73)  
 
-```python
-# Load the saved model
-new_model = Model()
-new_model.load_state_dict(torch.load('Iris_Model.pt'))
-new_model.eval()
 
-# Predict on new data
-new_data = torch.tensor([5.9, 3.0, 5.1, 1.8])  # Example data
-with torch.no_grad():
-    prediction = new_model(new_data)
-    print(prediction)
