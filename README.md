@@ -26,8 +26,8 @@ The model is trained and evaluated on the dataset, achieving high accuracy and g
 
 ## ⚙️ Technologies & Libraries Used
 
-- Python 🐍
-- PyTorch 🔥
+- Python
+- PyTorch
 - Pandas
 - NumPy
 - Matplotlib
